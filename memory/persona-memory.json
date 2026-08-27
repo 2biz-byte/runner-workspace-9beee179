@@ -1,6 +1,114 @@
 {
   "schemaVersion": 1,
   "pageId": "9beee179-c29d-4d19-9899-8964f57827a1",
-  "entries": [],
-  "updatedAt": 1787834108809
+  "entries": [
+    {
+      "id": "b989ca47-f41b-4014-a34a-5e920de0e35c",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-summary",
+        "text-chat-summary"
+      ],
+      "title": "Session Summary • 27/08/2026, 13:38:13",
+      "content": "### Internet Service Renewal: Northline Fiber\n- **Case ID:** SLOANE-RENEW-001\n- **Service:** Home Gigabit internet\n- **Financials:** Current rate $59.99/mo; proposed renewal $89.99/mo (50% increase).\n- **Leverage:** Competitor offer identified at $64.99/mo.\n- **Usage:** Stable usage averaging ~437 GB/month over the last six months.\n- **Contract Deadline:** 2026-09-14.\n- **Status:** Intake stage; negotiation email drafted for user review.",
+      "graph": {
+        "nodes": [
+          {
+            "id": null,
+            "type": "person",
+            "label": "Pritesh",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "Hello Pritesh!"
+            ]
+          },
+          {
+            "id": null,
+            "type": "project",
+            "label": "SLOANE-RENEW-001",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "case_id SLOANE-RENEW-001"
+            ]
+          },
+          {
+            "id": null,
+            "type": "company",
+            "label": "Northline Fiber",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "provider \"Northline Fiber\""
+            ]
+          },
+          {
+            "id": null,
+            "type": "session",
+            "label": "Household Procurement",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "Sloane, your Household Procurement AI"
+            ]
+          }
+        ],
+        "relationships": [
+          {
+            "id": null,
+            "source": "Pritesh",
+            "target": "SLOANE-RENEW-001",
+            "type": "related_to",
+            "label": "manages",
+            "confidence": 0.9,
+            "weight": null,
+            "sourceSpans": [
+              "Review my internet renewal"
+            ]
+          },
+          {
+            "id": null,
+            "source": "SLOANE-RENEW-001",
+            "target": "Northline Fiber",
+            "type": "related_to",
+            "label": "provider",
+            "confidence": 1,
+            "weight": null,
+            "sourceSpans": [
+              "provider \"Northline Fiber\""
+            ]
+          }
+        ],
+        "confidence": 0.8,
+        "extractedAt": "2026-08-27T12:38:16.120Z",
+        "extractionMethod": "llm"
+      },
+      "createdAt": "2026-08-27T12:38:16.133Z",
+      "updatedAt": "2026-08-27T12:38:16.133Z"
+    },
+    {
+      "id": "578e4516-db72-4946-b808-6dfeafb5e9af",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-skill",
+        "canonical",
+        "user-preferences"
+      ],
+      "title": "Personal Session Skill for 9beee179-c29d-4d19-9899-8964f57827a1",
+      "content": "# SKILL.md\n\n## Title\n- Personal AI Persona memory for 9beee179-c29d-4d19-9899-8964f57827a1.\n\n## User Preferences\n- No saved guidance yet.\n\n## Preferred Route Choices\n- No saved guidance yet.\n\n## Accepted Corrections\n- No saved guidance yet.\n\n## Preferred Sites and Domains\n- No saved guidance yet.\n\n## Repeated Requests\n- No saved guidance yet.\n\n## Recent Successful Patterns\n- No saved guidance yet.\n\n## Stable Constraints\n- No saved guidance yet.\n\n## Last Updated Session Note\n- Updated from Session Summary • 27/08/2026, 13:38:13 on 2026-08-27T12:38:16.234Z.",
+      "graph": null,
+      "createdAt": "2026-08-27T12:38:16.272Z",
+      "updatedAt": "2026-08-27T12:38:16.272Z"
+    }
+  ],
+  "updatedAt": 1787834620868
 }
