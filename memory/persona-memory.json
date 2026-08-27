@@ -422,7 +422,381 @@
       "graph": null,
       "createdAt": "2026-08-27T12:49:41.272Z",
       "updatedAt": "2026-08-27T12:49:41.272Z"
+    },
+    {
+      "id": "3602a7f1-eecb-4b92-8bf9-ee2bad32964a",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-summary",
+        "text-chat-summary"
+      ],
+      "title": "Session Summary • 27/08/2026, 13:53:38",
+      "content": "### Household Procurement AI Introduction\n- Sloane introduced as a Household Procurement AI persona.\n- Capabilities include managing service contracts, tracking renewals, analyzing usage, and drafting negotiation emails.\n- User can provide renewal notices, contracts, or bills for review and drafting assistance.",
+      "graph": {
+        "nodes": [
+          {
+            "id": null,
+            "type": "person",
+            "label": "Sloane",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "I'm Sloane, your Household Procurement AI"
+            ]
+          },
+          {
+            "id": null,
+            "type": "project",
+            "label": "Household Procurement",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "manage your household service contracts"
+            ]
+          }
+        ],
+        "relationships": [
+          {
+            "id": null,
+            "source": "Sloane",
+            "target": "Household Procurement",
+            "type": "manages",
+            "label": "AI persona for",
+            "confidence": 0.9,
+            "weight": null,
+            "sourceSpans": [
+              "I'm Sloane, your Household Procurement AI"
+            ]
+          }
+        ],
+        "confidence": 0.8,
+        "extractedAt": "2026-08-27T12:53:39.908Z",
+        "extractionMethod": "llm"
+      },
+      "createdAt": "2026-08-27T12:53:39.920Z",
+      "updatedAt": "2026-08-27T12:53:39.920Z"
+    },
+    {
+      "id": "2d7fd3e7-b0ac-4cfb-b76b-0f1a4227bc6d",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-skill",
+        "canonical",
+        "user-preferences"
+      ],
+      "title": "Personal Session Skill for 9beee179-c29d-4d19-9899-8964f57827a1",
+      "content": "# SKILL.md\n\n## Title\n- Personal AI Persona memory for 9beee179-c29d-4d19-9899-8964f57827a1.\n\n## User Preferences\n- No saved guidance yet.\n\n## Preferred Route Choices\n- No saved guidance yet.\n\n## Accepted Corrections\n- No saved guidance yet.\n\n## Preferred Sites and Domains\n- No saved guidance yet.\n\n## Repeated Requests\n- No saved guidance yet.\n\n## Recent Successful Patterns\n- No saved guidance yet.\n\n## Stable Constraints\n- No saved guidance yet.\n\n## Last Updated Session Note\n- Updated from Session Summary • 27/08/2026, 13:53:38 on 2026-08-27T12:53:39.973Z.",
+      "graph": null,
+      "createdAt": "2026-08-27T12:53:40.000Z",
+      "updatedAt": "2026-08-27T12:53:40.000Z"
+    },
+    {
+      "id": "8244bae8-87f1-4385-bff4-90986420f2b2",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-summary",
+        "text-chat-summary"
+      ],
+      "title": "Session Summary • 27/08/2026, 13:55:31",
+      "content": "### Household Procurement AI Introduction\n- Sloane introduced as a Household Procurement AI persona.\n- Capabilities include managing service contracts, tracking renewals, analyzing usage, and drafting negotiation emails.\n- Users can provide renewal notices, contracts, or bills for analysis and drafting assistance.",
+      "graph": {
+        "nodes": [
+          {
+            "id": null,
+            "type": "person",
+            "label": "Sloane",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "I'm Sloane, your Household Procurement AI"
+            ]
+          },
+          {
+            "id": null,
+            "type": "project",
+            "label": "Household Procurement",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "manage your household service contracts"
+            ]
+          }
+        ],
+        "relationships": [
+          {
+            "id": null,
+            "source": "Sloane",
+            "target": "Household Procurement",
+            "type": "manages",
+            "label": "AI Persona",
+            "confidence": 0.9,
+            "weight": null,
+            "sourceSpans": [
+              "I'm Sloane, your Household Procurement AI"
+            ]
+          }
+        ],
+        "confidence": 0.8,
+        "extractedAt": "2026-08-27T12:55:32.829Z",
+        "extractionMethod": "llm"
+      },
+      "createdAt": "2026-08-27T12:55:32.838Z",
+      "updatedAt": "2026-08-27T12:55:32.838Z"
+    },
+    {
+      "id": "28991040-2a19-4f1d-b90b-41afd31510c9",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-skill",
+        "canonical",
+        "user-preferences"
+      ],
+      "title": "Personal Session Skill for 9beee179-c29d-4d19-9899-8964f57827a1",
+      "content": "# SKILL.md\n\n## Title\n- Personal AI Persona memory for 9beee179-c29d-4d19-9899-8964f57827a1.\n\n## User Preferences\n- No saved guidance yet.\n\n## Preferred Route Choices\n- No saved guidance yet.\n\n## Accepted Corrections\n- No saved guidance yet.\n\n## Preferred Sites and Domains\n- No saved guidance yet.\n\n## Repeated Requests\n- No saved guidance yet.\n\n## Recent Successful Patterns\n- No saved guidance yet.\n\n## Stable Constraints\n- No saved guidance yet.\n\n## Last Updated Session Note\n- Updated from Session Summary • 27/08/2026, 13:55:31 on 2026-08-27T12:55:32.860Z.",
+      "graph": null,
+      "createdAt": "2026-08-27T12:55:32.884Z",
+      "updatedAt": "2026-08-27T12:55:32.884Z"
+    },
+    {
+      "id": "868e485c-0560-4d71-82a9-237795fe23d1",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-summary",
+        "text-chat-summary"
+      ],
+      "title": "Session Summary • 27/08/2026, 13:57:01",
+      "content": "### Household Procurement AI Introduction\n- Sloane introduced as a Household Procurement AI persona.\n- Capabilities include managing service contracts, tracking renewals, analyzing usage, and drafting negotiation emails.\n- Users can provide renewal notices, contracts, or bills for analysis and drafting assistance.",
+      "graph": {
+        "nodes": [
+          {
+            "id": null,
+            "type": "person",
+            "label": "Sloane",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "I'm Sloane, your Household Procurement AI"
+            ]
+          },
+          {
+            "id": null,
+            "type": "project",
+            "label": "Household Procurement",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "manage your household service contracts"
+            ]
+          }
+        ],
+        "relationships": [
+          {
+            "id": null,
+            "source": "Sloane",
+            "target": "Household Procurement",
+            "type": "manages",
+            "label": "operates as",
+            "confidence": 0.9,
+            "weight": null,
+            "sourceSpans": [
+              "I'm Sloane, your Household Procurement AI"
+            ]
+          }
+        ],
+        "confidence": 0.8,
+        "extractedAt": "2026-08-27T12:57:02.765Z",
+        "extractionMethod": "llm"
+      },
+      "createdAt": "2026-08-27T12:57:02.778Z",
+      "updatedAt": "2026-08-27T12:57:02.778Z"
+    },
+    {
+      "id": "2da72a1e-f718-4cdd-a3dd-cdfe0aad7adc",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-skill",
+        "canonical",
+        "user-preferences"
+      ],
+      "title": "Personal Session Skill for 9beee179-c29d-4d19-9899-8964f57827a1",
+      "content": "# SKILL.md\n\n## Title\n- Personal AI Persona memory for 9beee179-c29d-4d19-9899-8964f57827a1.\n\n## User Preferences\n- No saved guidance yet.\n\n## Preferred Route Choices\n- No saved guidance yet.\n\n## Accepted Corrections\n- No saved guidance yet.\n\n## Preferred Sites and Domains\n- No saved guidance yet.\n\n## Repeated Requests\n- No saved guidance yet.\n\n## Recent Successful Patterns\n- No saved guidance yet.\n\n## Stable Constraints\n- No saved guidance yet.\n\n## Last Updated Session Note\n- Updated from Session Summary • 27/08/2026, 13:57:01 on 2026-08-27T12:57:02.804Z.",
+      "graph": null,
+      "createdAt": "2026-08-27T12:57:02.835Z",
+      "updatedAt": "2026-08-27T12:57:02.835Z"
+    },
+    {
+      "id": "82411c9b-3057-453b-b88f-2efdaccc5769",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-summary",
+        "text-chat-summary"
+      ],
+      "title": "Session Summary • 27/08/2026, 13:58:58",
+      "content": "### Household Procurement AI Introduction\n- Sloane introduced as a Household Procurement AI persona.\n- Capabilities include managing service contracts, tracking renewals, analyzing usage, and drafting negotiation emails.\n- User can provide renewal notices, contracts, or bills for analysis and drafting support.",
+      "graph": {
+        "nodes": [
+          {
+            "id": null,
+            "type": "person",
+            "label": "Sloane",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "I'm Sloane, your Household Procurement AI"
+            ]
+          },
+          {
+            "id": null,
+            "type": "project",
+            "label": "Household Procurement",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "manage your household service contracts"
+            ]
+          }
+        ],
+        "relationships": [
+          {
+            "id": null,
+            "source": "Sloane",
+            "target": "Household Procurement",
+            "type": "manages",
+            "label": "manages",
+            "confidence": 0.9,
+            "weight": null,
+            "sourceSpans": [
+              "I'm Sloane, your Household Procurement AI"
+            ]
+          }
+        ],
+        "confidence": 0.8,
+        "extractedAt": "2026-08-27T12:58:59.615Z",
+        "extractionMethod": "llm"
+      },
+      "createdAt": "2026-08-27T12:58:59.630Z",
+      "updatedAt": "2026-08-27T12:58:59.630Z"
+    },
+    {
+      "id": "b30637fc-9637-417e-a71a-f79591c1672d",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-skill",
+        "canonical",
+        "user-preferences"
+      ],
+      "title": "Personal Session Skill for 9beee179-c29d-4d19-9899-8964f57827a1",
+      "content": "# SKILL.md\n\n## Title\n- Personal AI Persona memory for 9beee179-c29d-4d19-9899-8964f57827a1.\n\n## User Preferences\n- No saved guidance yet.\n\n## Preferred Route Choices\n- No saved guidance yet.\n\n## Accepted Corrections\n- No saved guidance yet.\n\n## Preferred Sites and Domains\n- No saved guidance yet.\n\n## Repeated Requests\n- No saved guidance yet.\n\n## Recent Successful Patterns\n- No saved guidance yet.\n\n## Stable Constraints\n- No saved guidance yet.\n\n## Last Updated Session Note\n- Updated from Session Summary • 27/08/2026, 13:58:58 on 2026-08-27T12:58:59.654Z.",
+      "graph": null,
+      "createdAt": "2026-08-27T12:58:59.684Z",
+      "updatedAt": "2026-08-27T12:58:59.684Z"
+    },
+    {
+      "id": "daf16a55-64ab-4f10-a2eb-88642c5252d7",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-summary",
+        "text-chat-summary"
+      ],
+      "title": "Session Summary • 27/08/2026, 14:00:57",
+      "content": "### Internet Contract Renewal\n- User requested a review of an internet renewal contract.\n- User requested a draft negotiation email to be sent before the contract renewal date.\n\n### System Status\n- Digital angels are currently not configured for this session, preventing automated assistance.",
+      "graph": {
+        "nodes": [
+          {
+            "id": null,
+            "type": "session",
+            "label": "Session 54c4be6d-e59f-45c3-9ba0-74ce0646f81c",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "Session Summary • 27/08/2026, 14:00:57"
+            ]
+          },
+          {
+            "id": null,
+            "type": "person",
+            "label": "Sloane",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "Hello! I'm Sloane."
+            ]
+          },
+          {
+            "id": null,
+            "type": "follow_up",
+            "label": "Draft negotiation email",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "draft a negotiation email before the contract renews"
+            ]
+          }
+        ],
+        "relationships": [
+          {
+            "id": null,
+            "source": "Sloane",
+            "target": "Session 54c4be6d-e59f-45c3-9ba0-74ce0646f81c",
+            "type": "facilitated",
+            "label": "assistant",
+            "confidence": 0.9,
+            "weight": null,
+            "sourceSpans": null
+          }
+        ],
+        "confidence": 0.8,
+        "extractedAt": "2026-08-27T13:01:00.247Z",
+        "extractionMethod": "llm"
+      },
+      "createdAt": "2026-08-27T13:01:00.368Z",
+      "updatedAt": "2026-08-27T13:01:00.368Z"
+    },
+    {
+      "id": "61d8adc5-eb49-4fa9-bc5e-6292e5252a6d",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-skill",
+        "canonical",
+        "user-preferences"
+      ],
+      "title": "Personal Session Skill for 9beee179-c29d-4d19-9899-8964f57827a1",
+      "content": "# SKILL.md\n\n## Title\n- Personal AI Persona memory for 9beee179-c29d-4d19-9899-8964f57827a1.\n\n## User Preferences\n- No saved guidance yet.\n\n## Preferred Route Choices\n- No saved guidance yet.\n\n## Accepted Corrections\n- No saved guidance yet.\n\n## Preferred Sites and Domains\n- No saved guidance yet.\n\n## Repeated Requests\n- No saved guidance yet.\n\n## Recent Successful Patterns\n- No saved guidance yet.\n\n## Stable Constraints\n- No saved guidance yet.\n\n## Last Updated Session Note\n- Updated from Session Summary • 27/08/2026, 14:00:57 on 2026-08-27T13:01:00.410Z.",
+      "graph": null,
+      "createdAt": "2026-08-27T13:01:00.460Z",
+      "updatedAt": "2026-08-27T13:01:00.460Z"
     }
   ],
-  "updatedAt": 1787835039634
+  "updatedAt": 1787835856216
 }
