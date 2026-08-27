@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "workspaceId": "hrw_cc56c7ba-8024-4c0a-9875-04c6d5700689",
+  "pageId": "9beee179-c29d-4d19-9899-8964f57827a1",
+  "resources": [],
+  "approval": {
+    "enabled": false,
+    "endpointIds": []
+  },
+  "updatedAt": 1787834108801
+}
