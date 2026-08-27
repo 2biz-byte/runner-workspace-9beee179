@@ -108,7 +108,321 @@
       "graph": null,
       "createdAt": "2026-08-27T12:38:16.272Z",
       "updatedAt": "2026-08-27T12:38:16.272Z"
+    },
+    {
+      "id": "aebfa636-553d-4e82-8ca7-b6a35d8a08c4",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-summary",
+        "text-chat-summary"
+      ],
+      "title": "Session Summary • 27/08/2026, 13:43:52",
+      "content": "### Internet Service Renewal\n- User requested a review of an internet service renewal contract.\n- User requested a draft negotiation email to be sent prior to the renewal date.",
+      "graph": {
+        "nodes": [
+          {
+            "id": null,
+            "type": "person",
+            "label": "Sloane",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "Hello! I'm Sloane."
+            ]
+          },
+          {
+            "id": null,
+            "type": "project",
+            "label": "Internet Renewal Negotiation",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "Review my internet renewal and draft a negotiation email"
+            ]
+          },
+          {
+            "id": null,
+            "type": "session",
+            "label": "9beee179-c29d-4d19-9899-8964f57827a1",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "Page ID: 9beee179-c29d-4d19-9899-8964f57827a1"
+            ]
+          }
+        ],
+        "relationships": [
+          {
+            "id": null,
+            "source": "Sloane",
+            "target": "Internet Renewal Negotiation",
+            "type": "assigned_to",
+            "label": "tasked with",
+            "confidence": 0.9,
+            "weight": null,
+            "sourceSpans": [
+              "Review my internet renewal and draft a negotiation email"
+            ]
+          }
+        ],
+        "confidence": 0.8,
+        "extractedAt": "2026-08-27T12:43:54.494Z",
+        "extractionMethod": "llm"
+      },
+      "createdAt": "2026-08-27T12:43:54.509Z",
+      "updatedAt": "2026-08-27T12:43:54.509Z"
+    },
+    {
+      "id": "c6039cfc-ba93-42f3-9482-6cb3b5d697f7",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-skill",
+        "canonical",
+        "user-preferences"
+      ],
+      "title": "Personal Session Skill for 9beee179-c29d-4d19-9899-8964f57827a1",
+      "content": "# SKILL.md\n\n## Title\n- Personal AI Persona memory for 9beee179-c29d-4d19-9899-8964f57827a1.\n\n## User Preferences\n- No saved guidance yet.\n\n## Preferred Route Choices\n- No saved guidance yet.\n\n## Accepted Corrections\n- No saved guidance yet.\n\n## Preferred Sites and Domains\n- No saved guidance yet.\n\n## Repeated Requests\n- No saved guidance yet.\n\n## Recent Successful Patterns\n- No saved guidance yet.\n\n## Stable Constraints\n- No saved guidance yet.\n\n## Last Updated Session Note\n- Updated from Session Summary • 27/08/2026, 13:43:52 on 2026-08-27T12:43:54.537Z.",
+      "graph": null,
+      "createdAt": "2026-08-27T12:43:54.566Z",
+      "updatedAt": "2026-08-27T12:43:54.566Z"
+    },
+    {
+      "id": "1a16507d-6336-4f94-8b92-aaa1f355b05f",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-summary",
+        "text-chat-summary"
+      ],
+      "title": "Session Summary • 27/08/2026, 13:44:05",
+      "content": "### Internet Service Renewal\n- User requested a review of their internet renewal terms.\n- User requested a draft negotiation email to be sent prior to contract renewal.",
+      "graph": {
+        "nodes": [
+          {
+            "id": null,
+            "type": "session",
+            "label": "Internet Renewal Negotiation",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "Review my internet renewal and draft a negotiation email"
+            ]
+          },
+          {
+            "id": null,
+            "type": "follow_up",
+            "label": "Draft negotiation email",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "draft a negotiation email before the contract renews"
+            ]
+          }
+        ],
+        "relationships": [
+          {
+            "id": null,
+            "source": "Internet Renewal Negotiation",
+            "target": "Draft negotiation email",
+            "type": "requires",
+            "label": "action item",
+            "confidence": 0.9,
+            "weight": null,
+            "sourceSpans": [
+              "draft a negotiation email before the contract renews"
+            ]
+          }
+        ],
+        "confidence": 0.8,
+        "extractedAt": "2026-08-27T12:44:06.311Z",
+        "extractionMethod": "llm"
+      },
+      "createdAt": "2026-08-27T12:44:06.335Z",
+      "updatedAt": "2026-08-27T12:44:06.335Z"
+    },
+    {
+      "id": "efd720a1-7667-41c9-8dfe-d23b7b05e3b8",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-skill",
+        "canonical",
+        "user-preferences"
+      ],
+      "title": "Personal Session Skill for 9beee179-c29d-4d19-9899-8964f57827a1",
+      "content": "# SKILL.md\n\n## Title\n- Personal AI Persona memory for 9beee179-c29d-4d19-9899-8964f57827a1.\n\n## User Preferences\n- No saved guidance yet.\n\n## Preferred Route Choices\n- No saved guidance yet.\n\n## Accepted Corrections\n- No saved guidance yet.\n\n## Preferred Sites and Domains\n- No saved guidance yet.\n\n## Repeated Requests\n- No saved guidance yet.\n\n## Recent Successful Patterns\n- No saved guidance yet.\n\n## Stable Constraints\n- No saved guidance yet.\n\n## Last Updated Session Note\n- Updated from Session Summary • 27/08/2026, 13:44:05 on 2026-08-27T12:44:06.361Z.",
+      "graph": null,
+      "createdAt": "2026-08-27T12:44:06.388Z",
+      "updatedAt": "2026-08-27T12:44:06.388Z"
+    },
+    {
+      "id": "149d813d-8d9e-4f50-8428-7ccdcb9e4175",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-summary",
+        "text-chat-summary"
+      ],
+      "title": "Session Summary • 27/08/2026, 13:47:40",
+      "content": "### Service Renewal Request\n- User initiated a request to renew a household service via command `/renew-a-household-service-personal`.\n\n### System Status\n- Assistant Sloane reported that no digital angels are currently configured for the session.",
+      "graph": {
+        "nodes": [
+          {
+            "id": null,
+            "type": "person",
+            "label": "Sloane",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "I'm Sloane"
+            ]
+          },
+          {
+            "id": null,
+            "type": "session",
+            "label": "Household Service Renewal",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "/renew-a-household-service-personal"
+            ]
+          }
+        ],
+        "relationships": [
+          {
+            "id": null,
+            "source": "Sloane",
+            "target": "Household Service Renewal",
+            "type": "related_to",
+            "label": "processed_request",
+            "confidence": 0.8,
+            "weight": null,
+            "sourceSpans": [
+              "No digital angels are configured for this chat yet."
+            ]
+          }
+        ],
+        "confidence": 0.8,
+        "extractedAt": "2026-08-27T12:47:43.673Z",
+        "extractionMethod": "llm"
+      },
+      "createdAt": "2026-08-27T12:47:43.778Z",
+      "updatedAt": "2026-08-27T12:47:43.778Z"
+    },
+    {
+      "id": "2c8b29a2-d8c6-40a3-84ad-11b5ec1c93d4",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-skill",
+        "canonical",
+        "user-preferences"
+      ],
+      "title": "Personal Session Skill for 9beee179-c29d-4d19-9899-8964f57827a1",
+      "content": "# SKILL.md\n\n## Title\n- Personal AI Persona memory for 9beee179-c29d-4d19-9899-8964f57827a1.\n\n## User Preferences\n- No saved guidance yet.\n\n## Preferred Route Choices\n- No saved guidance yet.\n\n## Accepted Corrections\n- No saved guidance yet.\n\n## Preferred Sites and Domains\n- No saved guidance yet.\n\n## Repeated Requests\n- No saved guidance yet.\n\n## Recent Successful Patterns\n- No saved guidance yet.\n\n## Stable Constraints\n- No saved guidance yet.\n\n## Last Updated Session Note\n- Updated from Session Summary • 27/08/2026, 13:47:40 on 2026-08-27T12:47:44.452Z.",
+      "graph": null,
+      "createdAt": "2026-08-27T12:47:44.565Z",
+      "updatedAt": "2026-08-27T12:47:44.565Z"
+    },
+    {
+      "id": "7542b3af-f0c1-4d77-a28e-046b55af6949",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-summary",
+        "text-chat-summary"
+      ],
+      "title": "Session Summary • 27/08/2026, 13:49:39",
+      "content": "### Service Renewal Request\n- User initiated a request to renew a household service via command `/renew-a-household-service-personal`.\n\n### System Status\n- No digital angels are currently configured for this session, preventing automated processing of the request.",
+      "graph": {
+        "nodes": [
+          {
+            "id": null,
+            "type": "session",
+            "label": "Session 27/08/2026",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "Session Summary • 27/08/2026, 13:49:39"
+            ]
+          },
+          {
+            "id": null,
+            "type": "person",
+            "label": "Sloane",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "Hello! I'm Sloane."
+            ]
+          },
+          {
+            "id": null,
+            "type": "opportunity",
+            "label": "Household Service Renewal",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "/renew-a-household-service-personal"
+            ]
+          }
+        ],
+        "relationships": [
+          {
+            "id": null,
+            "source": "Sloane",
+            "target": "Household Service Renewal",
+            "type": "related_to",
+            "label": "cannot process",
+            "confidence": 0.9,
+            "weight": null,
+            "sourceSpans": [
+              "No digital angels are configured for this chat yet."
+            ]
+          }
+        ],
+        "confidence": 0.8,
+        "extractedAt": "2026-08-27T12:49:41.203Z",
+        "extractionMethod": "llm"
+      },
+      "createdAt": "2026-08-27T12:49:41.216Z",
+      "updatedAt": "2026-08-27T12:49:41.216Z"
+    },
+    {
+      "id": "cafd5069-ba9d-4b48-9fc5-8af39c4305d3",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-skill",
+        "canonical",
+        "user-preferences"
+      ],
+      "title": "Personal Session Skill for 9beee179-c29d-4d19-9899-8964f57827a1",
+      "content": "# SKILL.md\n\n## Title\n- Personal AI Persona memory for 9beee179-c29d-4d19-9899-8964f57827a1.\n\n## User Preferences\n- No saved guidance yet.\n\n## Preferred Route Choices\n- No saved guidance yet.\n\n## Accepted Corrections\n- No saved guidance yet.\n\n## Preferred Sites and Domains\n- No saved guidance yet.\n\n## Repeated Requests\n- No saved guidance yet.\n\n## Recent Successful Patterns\n- No saved guidance yet.\n\n## Stable Constraints\n- No saved guidance yet.\n\n## Last Updated Session Note\n- Updated from Session Summary • 27/08/2026, 13:49:39 on 2026-08-27T12:49:41.241Z.",
+      "graph": null,
+      "createdAt": "2026-08-27T12:49:41.272Z",
+      "updatedAt": "2026-08-27T12:49:41.272Z"
     }
   ],
-  "updatedAt": 1787834620868
+  "updatedAt": 1787835039634
 }
