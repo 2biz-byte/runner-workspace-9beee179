@@ -796,7 +796,1252 @@
       "graph": null,
       "createdAt": "2026-08-27T13:01:00.460Z",
       "updatedAt": "2026-08-27T13:01:00.460Z"
+    },
+    {
+      "id": "9b0fee75-ac1a-4791-b3f3-1423206d3fc7",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-summary",
+        "text-chat-summary"
+      ],
+      "title": "Session Summary • 27/08/2026, 14:05:00",
+      "content": "### Internet Service Renewal\n- User requested a review of their current internet service renewal.\n- User requested a draft negotiation email to be sent before the contract renewal date.",
+      "graph": {
+        "nodes": [
+          {
+            "id": null,
+            "type": "session",
+            "label": "Internet Service Renewal Consultation",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "Review my internet renewal and draft a negotiation email"
+            ]
+          },
+          {
+            "id": null,
+            "type": "person",
+            "label": "Sloane",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "Hello! I'm Sloane."
+            ]
+          }
+        ],
+        "relationships": [
+          {
+            "id": null,
+            "source": "Sloane",
+            "target": "Internet Service Renewal Consultation",
+            "type": "facilitated",
+            "label": "assistant",
+            "confidence": 0.9,
+            "weight": null,
+            "sourceSpans": null
+          }
+        ],
+        "confidence": 0.8,
+        "extractedAt": "2026-08-27T13:05:01.301Z",
+        "extractionMethod": "llm"
+      },
+      "createdAt": "2026-08-27T13:05:01.318Z",
+      "updatedAt": "2026-08-27T13:05:01.318Z"
+    },
+    {
+      "id": "0f6ce2c2-8b73-4bac-8714-414659527d26",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-skill",
+        "canonical",
+        "user-preferences"
+      ],
+      "title": "Personal Session Skill for 9beee179-c29d-4d19-9899-8964f57827a1",
+      "content": "# SKILL.md\n\n## Title\n- Personal AI Persona memory for 9beee179-c29d-4d19-9899-8964f57827a1.\n\n## User Preferences\n- No saved guidance yet.\n\n## Preferred Route Choices\n- No saved guidance yet.\n\n## Accepted Corrections\n- No saved guidance yet.\n\n## Preferred Sites and Domains\n- No saved guidance yet.\n\n## Repeated Requests\n- No saved guidance yet.\n\n## Recent Successful Patterns\n- No saved guidance yet.\n\n## Stable Constraints\n- No saved guidance yet.\n\n## Last Updated Session Note\n- Updated from Session Summary • 27/08/2026, 14:05:00 on 2026-08-27T13:05:01.348Z.",
+      "graph": null,
+      "createdAt": "2026-08-27T13:05:01.386Z",
+      "updatedAt": "2026-08-27T13:05:01.386Z"
+    },
+    {
+      "id": "60c992bb-ef10-470c-85d4-e1c03c2f55fa",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-summary",
+        "text-chat-summary"
+      ],
+      "title": "Session Summary • 27/08/2026, 14:21:11",
+      "content": "### Internet Service Renewal Negotiation\n- User requested assistance with drafting a negotiation email for an upcoming internet service renewal.\n- Sloane (Household Procurement AI) was unable to locate a renewal notice in the user's inbox.\n- User needs to provide specific details (provider, current plan/rate, proposed new rate, and contract terms) to proceed with the draft.",
+      "graph": {
+        "nodes": [
+          {
+            "id": null,
+            "type": "person",
+            "label": "Sloane",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "I'm Sloane, your Household Procurement AI"
+            ]
+          },
+          {
+            "id": null,
+            "type": "project",
+            "label": "Internet Service Renewal",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "Review my internet renewal and draft a negotiation email"
+            ]
+          },
+          {
+            "id": null,
+            "type": "follow_up",
+            "label": "Provide internet renewal details",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "please forward it to me or let me know the details"
+            ]
+          }
+        ],
+        "relationships": [
+          {
+            "id": null,
+            "source": "Sloane",
+            "target": "Internet Service Renewal",
+            "type": "manages",
+            "label": "assisting with",
+            "confidence": 0.9,
+            "weight": null,
+            "sourceSpans": [
+              "I'll be happy to draft a negotiation email for you!"
+            ]
+          }
+        ],
+        "confidence": 0.8,
+        "extractedAt": "2026-08-27T13:21:12.545Z",
+        "extractionMethod": "llm"
+      },
+      "createdAt": "2026-08-27T13:21:12.562Z",
+      "updatedAt": "2026-08-27T13:21:12.562Z"
+    },
+    {
+      "id": "0b3287ef-f925-4df0-8655-f36c0c5a8585",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-skill",
+        "canonical",
+        "user-preferences"
+      ],
+      "title": "Personal Session Skill for 9beee179-c29d-4d19-9899-8964f57827a1",
+      "content": "# SKILL.md\n\n## Title\n- Personal AI Persona memory for 9beee179-c29d-4d19-9899-8964f57827a1.\n\n## User Preferences\n- No saved guidance yet.\n\n## Preferred Route Choices\n- No saved guidance yet.\n\n## Accepted Corrections\n- No saved guidance yet.\n\n## Preferred Sites and Domains\n- No saved guidance yet.\n\n## Repeated Requests\n- No saved guidance yet.\n\n## Recent Successful Patterns\n- No saved guidance yet.\n\n## Stable Constraints\n- No saved guidance yet.\n\n## Last Updated Session Note\n- Updated from Session Summary • 27/08/2026, 14:21:11 on 2026-08-27T13:21:12.618Z.",
+      "graph": null,
+      "createdAt": "2026-08-27T13:21:12.654Z",
+      "updatedAt": "2026-08-27T13:21:12.654Z"
+    },
+    {
+      "id": "14a9d598-6728-45ef-b1ca-ee6613bd3836",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-summary",
+        "text-chat-summary"
+      ],
+      "title": "Session Summary • 27/08/2026, 14:23:13",
+      "content": "### Internet Service Renewal\n- User requested assistance with an internet service renewal negotiation.\n- Sloane (Household Procurement AI) requires specific details (provider, current plan, current rate, proposed rate, and contract terms) to draft a negotiation email.\n- No renewal notices were found in the user's inbox during the initial search.",
+      "graph": {
+        "nodes": [
+          {
+            "id": null,
+            "type": "person",
+            "label": "Sloane",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "I'm Sloane, your Household Procurement AI"
+            ]
+          },
+          {
+            "id": null,
+            "type": "project",
+            "label": "Internet Service Renewal",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "Review my internet renewal and draft a negotiation email"
+            ]
+          },
+          {
+            "id": null,
+            "type": "follow_up",
+            "label": "Provide internet renewal details",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "please forward it to me or let me know the details"
+            ]
+          }
+        ],
+        "relationships": [
+          {
+            "id": null,
+            "source": "Sloane",
+            "target": "Internet Service Renewal",
+            "type": "manages",
+            "label": "assisting with",
+            "confidence": 0.9,
+            "weight": null,
+            "sourceSpans": [
+              "I'm here to help you manage your home service renewals"
+            ]
+          }
+        ],
+        "confidence": 0.8,
+        "extractedAt": "2026-08-27T13:23:15.001Z",
+        "extractionMethod": "llm"
+      },
+      "createdAt": "2026-08-27T13:23:15.013Z",
+      "updatedAt": "2026-08-27T13:23:15.013Z"
+    },
+    {
+      "id": "eb594da5-dea1-4b93-bfbc-b1bb10dd6aed",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-skill",
+        "canonical",
+        "user-preferences"
+      ],
+      "title": "Personal Session Skill for 9beee179-c29d-4d19-9899-8964f57827a1",
+      "content": "# SKILL.md\n\n## Title\n- Personal AI Persona memory for 9beee179-c29d-4d19-9899-8964f57827a1.\n\n## User Preferences\n- No saved guidance yet.\n\n## Preferred Route Choices\n- No saved guidance yet.\n\n## Accepted Corrections\n- No saved guidance yet.\n\n## Preferred Sites and Domains\n- No saved guidance yet.\n\n## Repeated Requests\n- No saved guidance yet.\n\n## Recent Successful Patterns\n- No saved guidance yet.\n\n## Stable Constraints\n- No saved guidance yet.\n\n## Last Updated Session Note\n- Updated from Session Summary • 27/08/2026, 14:23:13 on 2026-08-27T13:23:15.040Z.",
+      "graph": null,
+      "createdAt": "2026-08-27T13:23:15.068Z",
+      "updatedAt": "2026-08-27T13:23:15.068Z"
+    },
+    {
+      "id": "b01eaa82-f74a-4b23-8e46-9d7b9b65b189",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-summary",
+        "text-chat-summary"
+      ],
+      "title": "Session Summary • 27/08/2026, 14:34:36",
+      "content": "### Internet Service Renewal\n- User requested assistance with an internet service renewal negotiation.\n- Sloane (Household Procurement AI) confirmed no renewal notices were found in the user's inbox.\n- User needs to provide provider details, current plan/rate, and proposed new rate to proceed with drafting a negotiation email.",
+      "graph": {
+        "nodes": [
+          {
+            "id": null,
+            "type": "person",
+            "label": "Sloane",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "I'm Sloane, your Household Procurement AI"
+            ]
+          },
+          {
+            "id": null,
+            "type": "project",
+            "label": "Internet Service Renewal",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "Review my internet renewal and draft a negotiation email"
+            ]
+          },
+          {
+            "id": null,
+            "type": "follow_up",
+            "label": "Provide internet contract details",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "please forward it to me or let me know the details"
+            ]
+          }
+        ],
+        "relationships": [
+          {
+            "id": null,
+            "source": "Sloane",
+            "target": "Internet Service Renewal",
+            "type": "related_to",
+            "label": "managing",
+            "confidence": 0.9,
+            "weight": null,
+            "sourceSpans": [
+              "I'm here to help you manage your home service renewals"
+            ]
+          }
+        ],
+        "confidence": 0.8,
+        "extractedAt": "2026-08-27T13:34:37.682Z",
+        "extractionMethod": "llm"
+      },
+      "createdAt": "2026-08-27T13:34:37.695Z",
+      "updatedAt": "2026-08-27T13:34:37.695Z"
+    },
+    {
+      "id": "1a3c7b8d-2fe3-4156-ae03-6459936dce6f",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-skill",
+        "canonical",
+        "user-preferences"
+      ],
+      "title": "Personal Session Skill for 9beee179-c29d-4d19-9899-8964f57827a1",
+      "content": "# SKILL.md\n\n## Title\n- Personal AI Persona memory for 9beee179-c29d-4d19-9899-8964f57827a1.\n\n## User Preferences\n- No saved guidance yet.\n\n## Preferred Route Choices\n- No saved guidance yet.\n\n## Accepted Corrections\n- No saved guidance yet.\n\n## Preferred Sites and Domains\n- No saved guidance yet.\n\n## Repeated Requests\n- No saved guidance yet.\n\n## Recent Successful Patterns\n- No saved guidance yet.\n\n## Stable Constraints\n- No saved guidance yet.\n\n## Last Updated Session Note\n- Updated from Session Summary • 27/08/2026, 14:34:36 on 2026-08-27T13:34:37.716Z.",
+      "graph": null,
+      "createdAt": "2026-08-27T13:34:37.744Z",
+      "updatedAt": "2026-08-27T13:34:37.744Z"
+    },
+    {
+      "id": "d446b14f-c512-406f-bf86-198dbc36ff9a",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-summary",
+        "text-chat-summary"
+      ],
+      "title": "Session Summary • 28/08/2026, 09:42:37",
+      "content": "### Service Renewal Assistance\n- Sloane introduced as a household assistant capable of reviewing service renewals and drafting negotiation emails.\n- User initiated the `/renew-a-household-service-personal` command to begin the process.\n- Assistant clarified that all actions are limited to drafting; no payments, changes, or external communications are executed.",
+      "graph": {
+        "nodes": [
+          {
+            "id": null,
+            "type": "person",
+            "label": "Sloane",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "I'm Sloane, your household assistant"
+            ]
+          },
+          {
+            "id": null,
+            "type": "project",
+            "label": "Service Renewal Negotiation",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "review a service renewal like your internet plan and draft a negotiation email"
+            ]
+          },
+          {
+            "id": null,
+            "type": "session",
+            "label": "9beee179-c29d-4d19-9899-8964f57827a1",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "Page ID: 9beee179-c29d-4d19-9899-8964f57827a1"
+            ]
+          }
+        ],
+        "relationships": [
+          {
+            "id": null,
+            "source": "Sloane",
+            "target": "Service Renewal Negotiation",
+            "type": "manages",
+            "label": "facilitates",
+            "confidence": 0.9,
+            "weight": null,
+            "sourceSpans": [
+              "I can review a service renewal like your internet plan and draft a negotiation email"
+            ]
+          }
+        ],
+        "confidence": 0.8,
+        "extractedAt": "2026-08-28T08:42:39.326Z",
+        "extractionMethod": "llm"
+      },
+      "createdAt": "2026-08-28T08:42:39.339Z",
+      "updatedAt": "2026-08-28T08:42:39.339Z"
+    },
+    {
+      "id": "f59f27a8-6445-40ca-9c3b-8360bea4de24",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-skill",
+        "canonical",
+        "user-preferences"
+      ],
+      "title": "Personal Session Skill for 9beee179-c29d-4d19-9899-8964f57827a1",
+      "content": "# SKILL.md\n\n## Title\n- Personal AI Persona memory for 9beee179-c29d-4d19-9899-8964f57827a1.\n\n## User Preferences\n- No saved guidance yet.\n\n## Preferred Route Choices\n- No saved guidance yet.\n\n## Accepted Corrections\n- No saved guidance yet.\n\n## Preferred Sites and Domains\n- No saved guidance yet.\n\n## Repeated Requests\n- No saved guidance yet.\n\n## Recent Successful Patterns\n- No saved guidance yet.\n\n## Stable Constraints\n- No saved guidance yet.\n\n## Last Updated Session Note\n- Updated from Session Summary • 28/08/2026, 09:42:37 on 2026-08-28T08:42:39.462Z.",
+      "graph": null,
+      "createdAt": "2026-08-28T08:42:39.494Z",
+      "updatedAt": "2026-08-28T08:42:39.494Z"
+    },
+    {
+      "id": "a6d5202a-74bd-4d3b-9eca-2a10741fe794",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-summary",
+        "text-chat-summary"
+      ],
+      "title": "Session Summary • 28/08/2026, 10:02:35",
+      "content": "### Service Renewal Assistance\n- Sloane (Household Assistant) initiated a canvas run for the `/renew-a-household-service-personal` workflow.\n- The service aims to review internet plan renewals and draft negotiation emails.\n- The assistant confirmed it does not have authorization to send emails, modify accounts, or process payments.",
+      "graph": {
+        "nodes": [
+          {
+            "id": null,
+            "type": "person",
+            "label": "Sloane",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "I'm Sloane, your household assistant"
+            ]
+          },
+          {
+            "id": null,
+            "type": "project",
+            "label": "Renew Household Service",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "/renew-a-household-service-personal"
+            ]
+          },
+          {
+            "id": null,
+            "type": "session",
+            "label": "9beee179-c29d-4d19-9899-8964f57827a1",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "Page ID: 9beee179-c29d-4d19-9899-8964f57827a1"
+            ]
+          }
+        ],
+        "relationships": [
+          {
+            "id": null,
+            "source": "Sloane",
+            "target": "Renew Household Service",
+            "type": "manages",
+            "label": "executes",
+            "confidence": 0.9,
+            "weight": null,
+            "sourceSpans": [
+              "Started a canvas run for /renew-a-household-service-personal"
+            ]
+          }
+        ],
+        "confidence": 0.8,
+        "extractedAt": "2026-08-28T09:02:37.883Z",
+        "extractionMethod": "llm"
+      },
+      "createdAt": "2026-08-28T09:02:37.997Z",
+      "updatedAt": "2026-08-28T09:02:37.997Z"
+    },
+    {
+      "id": "3d52f29e-4be4-4be9-b4e8-94154fd57247",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-skill",
+        "canonical",
+        "user-preferences"
+      ],
+      "title": "Personal Session Skill for 9beee179-c29d-4d19-9899-8964f57827a1",
+      "content": "# SKILL.md\n\n## Title\n- Personal AI Persona memory for 9beee179-c29d-4d19-9899-8964f57827a1.\n\n## User Preferences\n- No saved guidance yet.\n\n## Preferred Route Choices\n- No saved guidance yet.\n\n## Accepted Corrections\n- No saved guidance yet.\n\n## Preferred Sites and Domains\n- No saved guidance yet.\n\n## Repeated Requests\n- No saved guidance yet.\n\n## Recent Successful Patterns\n- No saved guidance yet.\n\n## Stable Constraints\n- No saved guidance yet.\n\n## Last Updated Session Note\n- Updated from Session Summary • 28/08/2026, 10:02:35 on 2026-08-28T09:02:38.039Z.",
+      "graph": null,
+      "createdAt": "2026-08-28T09:02:38.072Z",
+      "updatedAt": "2026-08-28T09:02:38.072Z"
+    },
+    {
+      "id": "bf7a27ee-9bde-41ea-abe0-b6efa20b8910",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-summary",
+        "text-chat-summary"
+      ],
+      "title": "Session Summary • 28/08/2026, 10:02:57",
+      "content": "### Household Service Renewal\n- Initiated a canvas run for the `/renew-a-household-service-personal` workflow.\n- Sloane (Assistant) confirmed the capability to review internet service renewals and draft negotiation emails.\n- Assistant clarified that all actions are limited to drafting; no payments, changes, or external communications are performed.",
+      "graph": {
+        "nodes": [
+          {
+            "id": null,
+            "type": "person",
+            "label": "Sloane",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "I'm Sloane, your household assistant"
+            ]
+          },
+          {
+            "id": null,
+            "type": "project",
+            "label": "Household Service Renewal",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "/renew-a-household-service-personal"
+            ]
+          },
+          {
+            "id": null,
+            "type": "session",
+            "label": "28/08/2026 Session",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "Session Summary • 28/08/2026"
+            ]
+          }
+        ],
+        "relationships": [
+          {
+            "id": null,
+            "source": "Sloane",
+            "target": "Household Service Renewal",
+            "type": "manages",
+            "label": "manages",
+            "confidence": 0.9,
+            "weight": null,
+            "sourceSpans": [
+              "Started a canvas run for /renew-a-household-service-personal"
+            ]
+          }
+        ],
+        "confidence": 0.8,
+        "extractedAt": "2026-08-28T09:02:58.892Z",
+        "extractionMethod": "llm"
+      },
+      "createdAt": "2026-08-28T09:02:58.905Z",
+      "updatedAt": "2026-08-28T09:02:58.905Z"
+    },
+    {
+      "id": "f7c60066-1727-48f5-95ac-4b22fd66e027",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-skill",
+        "canonical",
+        "user-preferences"
+      ],
+      "title": "Personal Session Skill for 9beee179-c29d-4d19-9899-8964f57827a1",
+      "content": "# SKILL.md\n\n## Title\n- Personal AI Persona memory for 9beee179-c29d-4d19-9899-8964f57827a1.\n\n## User Preferences\n- No saved guidance yet.\n\n## Preferred Route Choices\n- No saved guidance yet.\n\n## Accepted Corrections\n- No saved guidance yet.\n\n## Preferred Sites and Domains\n- No saved guidance yet.\n\n## Repeated Requests\n- No saved guidance yet.\n\n## Recent Successful Patterns\n- No saved guidance yet.\n\n## Stable Constraints\n- No saved guidance yet.\n\n## Last Updated Session Note\n- Updated from Session Summary • 28/08/2026, 10:02:57 on 2026-08-28T09:02:58.966Z.",
+      "graph": null,
+      "createdAt": "2026-08-28T09:02:58.994Z",
+      "updatedAt": "2026-08-28T09:02:58.994Z"
+    },
+    {
+      "id": "46522b0d-85c4-4e16-867e-86a3d3501c4e",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-summary",
+        "text-chat-summary"
+      ],
+      "title": "Session Summary • 28/08/2026, 10:03:52",
+      "content": "### Service Renewal Assistance\n- Sloane initiated a canvas run for the `/renew-a-household-service-personal` workflow.\n- The assistant is tasked with reviewing an internet service renewal and drafting a negotiation email.\n- The assistant operates under a strict policy: drafts only, with no authority to send, modify, or process payments.",
+      "graph": {
+        "nodes": [
+          {
+            "id": null,
+            "type": "person",
+            "label": "Sloane",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "I'm Sloane, your household assistant"
+            ]
+          },
+          {
+            "id": null,
+            "type": "project",
+            "label": "Internet Service Renewal",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "review a service renewal like your internet plan"
+            ]
+          },
+          {
+            "id": null,
+            "type": "session",
+            "label": "renew-a-household-service-personal",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "/renew-a-household-service-personal"
+            ]
+          }
+        ],
+        "relationships": [
+          {
+            "id": null,
+            "source": "Sloane",
+            "target": "renew-a-household-service-personal",
+            "type": "manages",
+            "label": "executes",
+            "confidence": 1,
+            "weight": null,
+            "sourceSpans": [
+              "Started a canvas run for /renew-a-household-service-personal"
+            ]
+          }
+        ],
+        "confidence": 0.8,
+        "extractedAt": "2026-08-28T09:03:54.448Z",
+        "extractionMethod": "llm"
+      },
+      "createdAt": "2026-08-28T09:03:54.463Z",
+      "updatedAt": "2026-08-28T09:03:54.463Z"
+    },
+    {
+      "id": "6c4d301b-881a-441e-be67-c7bc85f87ba9",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-skill",
+        "canonical",
+        "user-preferences"
+      ],
+      "title": "Personal Session Skill for 9beee179-c29d-4d19-9899-8964f57827a1",
+      "content": "# SKILL.md\n\n## Title\n- Personal AI Persona memory for 9beee179-c29d-4d19-9899-8964f57827a1.\n\n## User Preferences\n- No saved guidance yet.\n\n## Preferred Route Choices\n- No saved guidance yet.\n\n## Accepted Corrections\n- No saved guidance yet.\n\n## Preferred Sites and Domains\n- No saved guidance yet.\n\n## Repeated Requests\n- No saved guidance yet.\n\n## Recent Successful Patterns\n- No saved guidance yet.\n\n## Stable Constraints\n- No saved guidance yet.\n\n## Last Updated Session Note\n- Updated from Session Summary • 28/08/2026, 10:03:52 on 2026-08-28T09:03:54.495Z.",
+      "graph": null,
+      "createdAt": "2026-08-28T09:03:54.525Z",
+      "updatedAt": "2026-08-28T09:03:54.525Z"
+    },
+    {
+      "id": "3815a5a3-a700-4635-9c07-4c684791ef80",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-summary",
+        "text-chat-summary"
+      ],
+      "title": "Session Summary • 28/08/2026, 10:05:24",
+      "content": "### Service Renewal Assistance\n- User initiated the `/renew-a-household-service-personal` workflow.\n- Sloane (Assistant) confirmed the capability to review internet service renewals and draft negotiation emails.\n- Assistant clarified that all actions are limited to drafting and do not include sending, modifying, or processing payments.",
+      "graph": {
+        "nodes": [
+          {
+            "id": null,
+            "type": "person",
+            "label": "Sloane",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "I'm Sloane, your household assistant"
+            ]
+          },
+          {
+            "id": null,
+            "type": "project",
+            "label": "Internet Service Renewal",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "review a service renewal like your internet plan"
+            ]
+          },
+          {
+            "id": null,
+            "type": "session",
+            "label": "renew-a-household-service-personal",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "/renew-a-household-service-personal"
+            ]
+          }
+        ],
+        "relationships": [
+          {
+            "id": null,
+            "source": "Sloane",
+            "target": "renew-a-household-service-personal",
+            "type": "manages",
+            "label": "executes",
+            "confidence": 0.9,
+            "weight": null,
+            "sourceSpans": [
+              "Started a canvas run for /renew-a-household-service-personal"
+            ]
+          }
+        ],
+        "confidence": 0.8,
+        "extractedAt": "2026-08-28T09:05:26.269Z",
+        "extractionMethod": "llm"
+      },
+      "createdAt": "2026-08-28T09:05:26.283Z",
+      "updatedAt": "2026-08-28T09:05:26.283Z"
+    },
+    {
+      "id": "aef94f2f-3e4d-4156-b01c-94d8961145e2",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-skill",
+        "canonical",
+        "user-preferences"
+      ],
+      "title": "Personal Session Skill for 9beee179-c29d-4d19-9899-8964f57827a1",
+      "content": "# SKILL.md\n\n## Title\n- Personal AI Persona memory for 9beee179-c29d-4d19-9899-8964f57827a1.\n\n## User Preferences\n- No saved guidance yet.\n\n## Preferred Route Choices\n- No saved guidance yet.\n\n## Accepted Corrections\n- No saved guidance yet.\n\n## Preferred Sites and Domains\n- No saved guidance yet.\n\n## Repeated Requests\n- No saved guidance yet.\n\n## Recent Successful Patterns\n- No saved guidance yet.\n\n## Stable Constraints\n- No saved guidance yet.\n\n## Last Updated Session Note\n- Updated from Session Summary • 28/08/2026, 10:05:24 on 2026-08-28T09:05:26.312Z.",
+      "graph": null,
+      "createdAt": "2026-08-28T09:05:26.345Z",
+      "updatedAt": "2026-08-28T09:05:26.345Z"
+    },
+    {
+      "id": "4810fc06-b9a1-4c1b-8b51-12b815bdfbdd",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-summary",
+        "text-chat-summary"
+      ],
+      "title": "Session Summary • 28/08/2026, 10:21:52",
+      "content": "### Service Renewal Assistance\n- Sloane (Assistant) initiated a process to review a household service renewal (internet plan).\n- The assistant will draft a negotiation email for the user to review before the contract renewal date.\n- The assistant explicitly stated it does not have authorization to send emails, modify contracts, or process payments.",
+      "graph": {
+        "nodes": [
+          {
+            "id": null,
+            "type": "person",
+            "label": "Sloane",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "I'm Sloane, your household assistant"
+            ]
+          },
+          {
+            "id": null,
+            "type": "project",
+            "label": "Internet Plan Renewal",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "review a service renewal like your internet plan"
+            ]
+          },
+          {
+            "id": null,
+            "type": "session",
+            "label": "renew-a-household-service-personal",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "/renew-a-household-service-personal"
+            ]
+          }
+        ],
+        "relationships": [
+          {
+            "id": null,
+            "source": "Sloane",
+            "target": "renew-a-household-service-personal",
+            "type": "manages",
+            "label": "executes",
+            "confidence": 0.9,
+            "weight": null,
+            "sourceSpans": [
+              "Started a canvas run for /renew-a-household-service-personal"
+            ]
+          }
+        ],
+        "confidence": 0.8,
+        "extractedAt": "2026-08-28T09:21:54.515Z",
+        "extractionMethod": "llm"
+      },
+      "createdAt": "2026-08-28T09:21:54.532Z",
+      "updatedAt": "2026-08-28T09:21:54.532Z"
+    },
+    {
+      "id": "16c312ff-b454-43c1-b60d-02ddedf14b7e",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-skill",
+        "canonical",
+        "user-preferences"
+      ],
+      "title": "Personal Session Skill for 9beee179-c29d-4d19-9899-8964f57827a1",
+      "content": "# SKILL.md\n\n## Title\n- Personal AI Persona memory for 9beee179-c29d-4d19-9899-8964f57827a1.\n\n## User Preferences\n- No saved guidance yet.\n\n## Preferred Route Choices\n- No saved guidance yet.\n\n## Accepted Corrections\n- No saved guidance yet.\n\n## Preferred Sites and Domains\n- No saved guidance yet.\n\n## Repeated Requests\n- No saved guidance yet.\n\n## Recent Successful Patterns\n- No saved guidance yet.\n\n## Stable Constraints\n- No saved guidance yet.\n\n## Last Updated Session Note\n- Updated from Session Summary • 28/08/2026, 10:21:52 on 2026-08-28T09:21:54.615Z.",
+      "graph": null,
+      "createdAt": "2026-08-28T09:21:54.641Z",
+      "updatedAt": "2026-08-28T09:21:54.641Z"
+    },
+    {
+      "id": "2b24eb43-d5ab-4df6-b4f1-810e21ed5870",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-summary",
+        "text-chat-summary"
+      ],
+      "title": "Session Summary • 28/08/2026, 13:16:16",
+      "content": "### Household Service Renewal\n- Initiated a canvas session for the `/renew-a-household-service-personal` workflow.\n- Sloane (Assistant) is tasked with reviewing an internet service renewal and drafting a negotiation email.\n- Assistant confirmed that all actions are limited to drafting and do not include sending, changing, or paying for services.",
+      "graph": {
+        "nodes": [
+          {
+            "id": null,
+            "type": "person",
+            "label": "Sloane",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "I'm Sloane, your household assistant"
+            ]
+          },
+          {
+            "id": null,
+            "type": "project",
+            "label": "Internet Service Renewal",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "review a service renewal like your internet plan"
+            ]
+          },
+          {
+            "id": null,
+            "type": "session",
+            "label": "Canvas Run",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "Started a canvas run for /renew-a-household-service-personal"
+            ]
+          }
+        ],
+        "relationships": [
+          {
+            "id": null,
+            "source": "Sloane",
+            "target": "Internet Service Renewal",
+            "type": "manages",
+            "label": "drafts negotiation",
+            "confidence": 0.9,
+            "weight": null,
+            "sourceSpans": [
+              "draft a negotiation email before the contract renews"
+            ]
+          }
+        ],
+        "confidence": 0.8,
+        "extractedAt": "2026-08-28T12:16:19.682Z",
+        "extractionMethod": "llm"
+      },
+      "createdAt": "2026-08-28T12:16:19.695Z",
+      "updatedAt": "2026-08-28T12:16:19.695Z"
+    },
+    {
+      "id": "ac7dfa37-4353-428a-bbe5-d1c5af40f6f8",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-skill",
+        "canonical",
+        "user-preferences"
+      ],
+      "title": "Personal Session Skill for 9beee179-c29d-4d19-9899-8964f57827a1",
+      "content": "# SKILL.md\n\n## Title\n- Personal AI Persona memory for 9beee179-c29d-4d19-9899-8964f57827a1.\n\n## User Preferences\n- No saved guidance yet.\n\n## Preferred Route Choices\n- No saved guidance yet.\n\n## Accepted Corrections\n- No saved guidance yet.\n\n## Preferred Sites and Domains\n- No saved guidance yet.\n\n## Repeated Requests\n- No saved guidance yet.\n\n## Recent Successful Patterns\n- No saved guidance yet.\n\n## Stable Constraints\n- No saved guidance yet.\n\n## Last Updated Session Note\n- Updated from Session Summary • 28/08/2026, 13:16:16 on 2026-08-28T12:16:19.774Z.",
+      "graph": null,
+      "createdAt": "2026-08-28T12:16:19.794Z",
+      "updatedAt": "2026-08-28T12:16:19.794Z"
+    },
+    {
+      "id": "2490e541-bb4d-44bb-b66d-d3b3fda1ae00",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-summary",
+        "text-chat-summary"
+      ],
+      "title": "Session Summary • 28/08/2026, 13:17:20",
+      "content": "### Internet Service Renewal\n- User initiated the `/renew-a-household-service-personal` workflow to review an internet contract renewal.\n- Assistant Sloane confirmed the start of a canvas run to draft a negotiation email.\n- Assistant clarified that it only provides drafts and does not execute payments, changes, or send emails.",
+      "graph": {
+        "nodes": [
+          {
+            "id": null,
+            "type": "person",
+            "label": "Sloane",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "I'm Sloane, your household assistant"
+            ]
+          },
+          {
+            "id": null,
+            "type": "project",
+            "label": "Internet Service Renewal",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "Review my internet renewal and draft a negotiation email"
+            ]
+          },
+          {
+            "id": null,
+            "type": "session",
+            "label": "renew-a-household-service-personal",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "/renew-a-household-service-personal"
+            ]
+          }
+        ],
+        "relationships": [
+          {
+            "id": null,
+            "source": "Sloane",
+            "target": "renew-a-household-service-personal",
+            "type": "manages",
+            "label": "executes",
+            "confidence": 1,
+            "weight": null,
+            "sourceSpans": [
+              "Started a canvas run for /renew-a-household-service-personal"
+            ]
+          }
+        ],
+        "confidence": 0.8,
+        "extractedAt": "2026-08-28T12:17:23.238Z",
+        "extractionMethod": "llm"
+      },
+      "createdAt": "2026-08-28T12:17:23.252Z",
+      "updatedAt": "2026-08-28T12:17:23.252Z"
+    },
+    {
+      "id": "4d27dbf4-f9bd-421e-88f8-d824b9d6fdc8",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-skill",
+        "canonical",
+        "user-preferences"
+      ],
+      "title": "Personal Session Skill for 9beee179-c29d-4d19-9899-8964f57827a1",
+      "content": "# SKILL.md\n\n## Title\n- Personal AI Persona memory for 9beee179-c29d-4d19-9899-8964f57827a1.\n\n## User Preferences\n- No saved guidance yet.\n\n## Preferred Route Choices\n- No saved guidance yet.\n\n## Accepted Corrections\n- No saved guidance yet.\n\n## Preferred Sites and Domains\n- No saved guidance yet.\n\n## Repeated Requests\n- No saved guidance yet.\n\n## Recent Successful Patterns\n- No saved guidance yet.\n\n## Stable Constraints\n- No saved guidance yet.\n\n## Last Updated Session Note\n- Updated from Session Summary • 28/08/2026, 13:17:20 on 2026-08-28T12:17:23.292Z.",
+      "graph": null,
+      "createdAt": "2026-08-28T12:17:23.331Z",
+      "updatedAt": "2026-08-28T12:17:23.331Z"
+    },
+    {
+      "id": "a910b8e5-3bdd-4783-a9eb-bd7cd8a6db25",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-summary",
+        "text-chat-summary"
+      ],
+      "title": "Session Summary • 28/08/2026, 13:18:10",
+      "content": "### Internet Service Renewal\n- Initiated a request to review an upcoming internet service contract renewal.\n- Sloane (Assistant) is drafting a negotiation email to be used before the contract renewal date.\n- The assistant confirmed that all actions are limited to drafting and do not include sending, modifying, or making payments.",
+      "graph": {
+        "nodes": [
+          {
+            "id": null,
+            "type": "person",
+            "label": "Sloane",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "I'm Sloane, your household assistant"
+            ]
+          },
+          {
+            "id": null,
+            "type": "project",
+            "label": "Internet Service Renewal",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "Review my internet renewal and draft a negotiation email"
+            ]
+          },
+          {
+            "id": null,
+            "type": "session",
+            "label": "renew-a-household-service-personal",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "/renew-a-household-service-personal"
+            ]
+          }
+        ],
+        "relationships": [
+          {
+            "id": null,
+            "source": "Sloane",
+            "target": "renew-a-household-service-personal",
+            "type": "manages",
+            "label": "executes",
+            "confidence": 0.9,
+            "weight": null,
+            "sourceSpans": [
+              "Started a canvas run for /renew-a-household-service-personal"
+            ]
+          }
+        ],
+        "confidence": 0.8,
+        "extractedAt": "2026-08-28T12:18:13.045Z",
+        "extractionMethod": "llm"
+      },
+      "createdAt": "2026-08-28T12:18:13.054Z",
+      "updatedAt": "2026-08-28T12:18:13.054Z"
+    },
+    {
+      "id": "66254530-e067-4352-a88a-44312b44d731",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-skill",
+        "canonical",
+        "user-preferences"
+      ],
+      "title": "Personal Session Skill for 9beee179-c29d-4d19-9899-8964f57827a1",
+      "content": "# SKILL.md\n\n## Title\n- Personal AI Persona memory for 9beee179-c29d-4d19-9899-8964f57827a1.\n\n## User Preferences\n- No saved guidance yet.\n\n## Preferred Route Choices\n- No saved guidance yet.\n\n## Accepted Corrections\n- No saved guidance yet.\n\n## Preferred Sites and Domains\n- No saved guidance yet.\n\n## Repeated Requests\n- No saved guidance yet.\n\n## Recent Successful Patterns\n- No saved guidance yet.\n\n## Stable Constraints\n- No saved guidance yet.\n\n## Last Updated Session Note\n- Updated from Session Summary • 28/08/2026, 13:18:10 on 2026-08-28T12:18:13.075Z.",
+      "graph": null,
+      "createdAt": "2026-08-28T12:18:13.095Z",
+      "updatedAt": "2026-08-28T12:18:13.095Z"
+    },
+    {
+      "id": "acc1fbf9-7a61-40ff-a55f-301acdd792ca",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-summary",
+        "text-chat-summary"
+      ],
+      "title": "Session Summary • 28/08/2026, 14:05:40",
+      "content": "### Service Renewal Assistance\n- User initiated the `/renew-a-household-service-personal` workflow.\n- Sloane (Assistant) confirmed the scope: reviewing internet service renewals and drafting negotiation emails.\n- Assistant clarified that all actions are draft-only and do not involve payments or direct account changes.",
+      "graph": {
+        "nodes": [
+          {
+            "id": null,
+            "type": "person",
+            "label": "Sloane",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "I'm Sloane, your household assistant"
+            ]
+          },
+          {
+            "id": null,
+            "type": "project",
+            "label": "Internet Service Renewal",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "review a service renewal like your internet plan"
+            ]
+          },
+          {
+            "id": null,
+            "type": "session",
+            "label": "renew-a-household-service-personal",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "/renew-a-household-service-personal"
+            ]
+          }
+        ],
+        "relationships": [
+          {
+            "id": null,
+            "source": "Sloane",
+            "target": "renew-a-household-service-personal",
+            "type": "manages",
+            "label": "manages",
+            "confidence": 0.9,
+            "weight": null,
+            "sourceSpans": [
+              "Started a canvas run for /renew-a-household-service-personal"
+            ]
+          }
+        ],
+        "confidence": 0.8,
+        "extractedAt": "2026-08-28T13:05:42.815Z",
+        "extractionMethod": "llm"
+      },
+      "createdAt": "2026-08-28T13:05:42.824Z",
+      "updatedAt": "2026-08-28T13:05:42.824Z"
+    },
+    {
+      "id": "24647cb5-b4a0-4a74-9294-3f7710b2f4f2",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-skill",
+        "canonical",
+        "user-preferences"
+      ],
+      "title": "Personal Session Skill for 9beee179-c29d-4d19-9899-8964f57827a1",
+      "content": "# SKILL.md\n\n## Title\n- Personal AI Persona memory for 9beee179-c29d-4d19-9899-8964f57827a1.\n\n## User Preferences\n- No saved guidance yet.\n\n## Preferred Route Choices\n- No saved guidance yet.\n\n## Accepted Corrections\n- No saved guidance yet.\n\n## Preferred Sites and Domains\n- No saved guidance yet.\n\n## Repeated Requests\n- No saved guidance yet.\n\n## Recent Successful Patterns\n- No saved guidance yet.\n\n## Stable Constraints\n- No saved guidance yet.\n\n## Last Updated Session Note\n- Updated from Session Summary • 28/08/2026, 14:05:40 on 2026-08-28T13:05:43.029Z.",
+      "graph": null,
+      "createdAt": "2026-08-28T13:05:43.057Z",
+      "updatedAt": "2026-08-28T13:05:43.057Z"
+    },
+    {
+      "id": "b7b10f67-3b57-4e07-aaea-8ba7b687371e",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-summary",
+        "text-chat-summary"
+      ],
+      "title": "Session Summary • 28/08/2026, 14:17:41",
+      "content": "### Internet Service Renewal\n- User initiated a request to review an upcoming internet service renewal.\n- Sloane (Assistant) tasked with drafting a negotiation email to address the contract renewal.\n- Assistant confirmed that all actions are limited to drafting and do not include sending, modifying, or paying for services.",
+      "graph": {
+        "nodes": [
+          {
+            "id": null,
+            "type": "person",
+            "label": "Sloane",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "I'm Sloane, your household assistant"
+            ]
+          },
+          {
+            "id": null,
+            "type": "project",
+            "label": "Internet Service Renewal",
+            "confidence": 0.9,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "Review my internet renewal and draft a negotiation email"
+            ]
+          },
+          {
+            "id": null,
+            "type": "session",
+            "label": "28/08/2026 Session",
+            "confidence": 1,
+            "weight": null,
+            "aliases": null,
+            "sourceSpans": [
+              "Session Summary • 28/08/2026"
+            ]
+          }
+        ],
+        "relationships": [
+          {
+            "id": null,
+            "source": "Sloane",
+            "target": "Internet Service Renewal",
+            "type": "manages",
+            "label": "drafting negotiation email",
+            "confidence": 0.9,
+            "weight": null,
+            "sourceSpans": null
+          }
+        ],
+        "confidence": 0.8,
+        "extractedAt": "2026-08-28T13:17:46.548Z",
+        "extractionMethod": "llm"
+      },
+      "createdAt": "2026-08-28T13:17:46.901Z",
+      "updatedAt": "2026-08-28T13:17:46.901Z"
+    },
+    {
+      "id": "fcc2cd77-e844-4a50-9986-6ec373785827",
+      "scope": "personal",
+      "agentId": "9beee179-c29d-4d19-9899-8964f57827a1",
+      "taskTemplateId": null,
+      "tags": [
+        "session-skill",
+        "canonical",
+        "user-preferences"
+      ],
+      "title": "Personal Session Skill for 9beee179-c29d-4d19-9899-8964f57827a1",
+      "content": "# SKILL.md\n\n## Title\n- Personal AI Persona memory for 9beee179-c29d-4d19-9899-8964f57827a1.\n\n## User Preferences\n- No saved guidance yet.\n\n## Preferred Route Choices\n- No saved guidance yet.\n\n## Accepted Corrections\n- No saved guidance yet.\n\n## Preferred Sites and Domains\n- No saved guidance yet.\n\n## Repeated Requests\n- No saved guidance yet.\n\n## Recent Successful Patterns\n- No saved guidance yet.\n\n## Stable Constraints\n- No saved guidance yet.\n\n## Last Updated Session Note\n- Updated from Session Summary • 28/08/2026, 14:17:41 on 2026-08-28T13:17:46.948Z.",
+      "graph": null,
+      "createdAt": "2026-08-28T13:17:46.966Z",
+      "updatedAt": "2026-08-28T13:17:46.966Z"
     }
   ],
-  "updatedAt": 1787835856216
+  "updatedAt": 1787923202735
 }
